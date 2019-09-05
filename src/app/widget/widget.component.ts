@@ -19,7 +19,7 @@ export class WidgetComponent implements OnInit {
             .widgetData$
             .subscribe(data =>
             {
-                this.userText = data; //assign new data to class member
+                this.userText = data.sampleText; //assign new data to class member
                 this.onShareServiceUpdated(); //call some method to do something with it
             });
    }
