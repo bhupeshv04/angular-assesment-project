@@ -1,0 +1,41 @@
+<div class="container">
+  <div class="row">
+    <div class="col-6">
+      <form #widgetForm="ngForm">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="card-title">Widget 1</h3>
+            </div>
+            <div class="card-body">
+
+              <div class="form-group">
+                <label for="sampleText">Enter Text</label>
+                <input id="sampleText" type="text" class="form-control"
+                      name="sampleText" [(ngModel)]="sampleText">
+              </div>
+
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-primary" type="submit">Click Display</button>
+            </div>
+          </div>
+      </form>
+    </div>
+
+    <div class="col-6">
+        <div class="card">
+            <div class="card-header">
+              <h3 class="card-title">Widget 2</h3>
+            </div>
+            <div class="card-body">
+
+              <div class="row">
+                <label for="fullName"><b>User Text :</b></label>
+                <label>{{userText}}</label>
+              </div>
+
+            </div>
+          </div>
+    </div>
+  </div>
+</div>
