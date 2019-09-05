@@ -31,4 +31,9 @@ export class EmployeeService{
             }
     ];
   }
+
+  getEmployeeByCode(empCode: string): IEmployee {
+    let employeeList=this.getEmployees();
+    return employeeList.filter(emp=>emp.code==empCode)[0];
+}
 }

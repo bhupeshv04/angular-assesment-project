@@ -4,8 +4,12 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { EmployeeListComponent } from '.././employee-list/employee-list.component';
 
+import { EmployeeComponent } from 
+'.././employee/employee.component';
+
 const appRoutes: Routes = [
-  { path: 'list', component: EmployeeListComponent },
+  { path: 'employees', component: EmployeeListComponent },
+  { path: 'employees/:code', component: EmployeeComponent },
   { path: '', redirectTo: '/list', pathMatch: 'full' }
 ];
 
