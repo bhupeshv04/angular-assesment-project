@@ -8,9 +8,9 @@ export class SharedService {
   constructor() { }
 
   private _widgetData = new ReplaySubject<WidgetData>();
-    public widgetData$ = this._widgetData.asObservable();
+  public widgetData$ = this._widgetData.asObservable();
 
-    public update(data)
+    public update(data): void
     {
         this._widgetData.next(data)
     }

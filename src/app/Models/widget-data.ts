@@ -1,5 +1,5 @@
 export class WidgetData {
-  constructor(public valueOne: string)
+  constructor(public sampleText: string)
     {
 
     }

@@ -1,7 +1,7 @@
 <div class="container">
   <div class="row">
     <div class="col-6">
-      <form #widgetForm="ngForm">
+      <form #widgetForm="ngForm" (ngSubmit)="onFormSubmit(widgetForm)">
           <div class="card">
             <div class="card-header">
               <h3 class="card-title">Widget 1</h3>
