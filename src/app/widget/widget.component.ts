@@ -20,7 +20,6 @@ export class WidgetComponent implements OnInit {
             .subscribe(data =>
             {
                 this.userText = data.sampleText; //assign new data to class member
-                this.onShareServiceUpdated(); //call some method to do something with it
             });
    }
 
@@ -32,12 +31,6 @@ export class WidgetComponent implements OnInit {
       console.log(formData);
       const newData = new WidgetData(formData.value.sampleText);
       this._sharedService.update(newData);
-    }
-
-     private onShareServiceUpdated()
-    {
-        //Make api call with new data
-        console.log(this.userText);
     }
 
 }
