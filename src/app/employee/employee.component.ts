@@ -10,7 +10,6 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class EmployeeComponent implements OnInit {
  employee: IEmployee;
- statusMessage: string = 'Loading data. Please wait...';
   constructor(private _employeeService: EmployeeService,
         private _activatedRoute: ActivatedRoute,
         private _router: Router) { }
