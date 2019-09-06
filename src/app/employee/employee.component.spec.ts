@@ -3,7 +3,7 @@ import { EmployeeComponent } from './employee.component';
 import { EmployeeService } from '.././Services/employee.service';
 import { ActivatedRoute, Router } from '@angular/router';
 
-describe('EmployeeComponent', () => {
+describe('EmployeeComponentTest', () => {
 
   let fixture;
   let employeeService;

@@ -1,5 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`EmployeeComponent Should display a employee 1`] = `"emp101"`;
+exports[`EmployeeComponentTest Should display a employee 1`] = `"emp101"`;
 
-exports[`EmployeeComponent Should display a employee of code emp101 1`] = `"emp101"`;
+exports[`EmployeeComponentTest Should display a employee of code emp101 1`] = `"emp101"`;

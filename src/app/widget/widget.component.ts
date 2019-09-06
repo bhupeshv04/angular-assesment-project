@@ -28,7 +28,6 @@ export class WidgetComponent implements OnInit {
 
   onFormSubmit(formData: NgForm)
     {
-      console.log(formData);
       const newData = new WidgetData(formData.value.sampleText);
       this._sharedService.update(newData);
     }

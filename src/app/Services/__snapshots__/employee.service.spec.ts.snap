@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmployeeServiceTest Should display a employee 1`] = `"emp101"`;
+
+exports[`EmployeeServiceTest Should display a employee of code emp101 from the list 1`] = `"emp101"`;
