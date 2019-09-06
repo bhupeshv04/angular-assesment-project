@@ -10,4 +10,6 @@ This is a Assessment Project.
       i)Widget 1 has a text box to enter any text and a button "Click Display". 
       ii) On Clicking the button the text entered in Widget1 is displayed in Widget2.
 
-3. SnapShot Testing has been done for Employee.Component. So the two SnapShot testing validate the employee Code.
+4. SnapShot Testing has been done for Employee.Component. So the two SnapShot testing validate the employee Code.
+
+5. SnapShot Testing has been done for Employee Service. So the two SnapShot testing validate the employee Code.
